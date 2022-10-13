@@ -1,7 +1,7 @@
 def run_lenght(seq):
     '''
-    :param seqüència de bytes
-    :return: el nombre de 1's i 0's
+    :param sequence of bytes
+    :return: the number of concurrences of an element
     '''
     n = len(seq)
     i = 0
@@ -15,7 +15,7 @@ def run_lenght(seq):
         print(seq[i - 1] + str(count), end=" ")
 
 inp = input('Entra una seqüència: ')
-run_lenght(str(inp)+'-') #afegeixo un caràcter per a que es conti l'últim element
+run_lenght(str(inp)+'-') #adding a last character in order to count the last input element
 
 
 

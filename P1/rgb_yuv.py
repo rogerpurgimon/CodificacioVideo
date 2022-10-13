@@ -1,7 +1,7 @@
 def rgb_to_yuv(color):
     '''
-    :param color és un vector que conté els valors de vermell(R), verd(G) i blau (B) consecutivament.
-    :return el color, però en el colorspace YUV (YCbCr).
+    :param color is a vector containing the RED, GREEN and BLUE channels
+    :return the color but in the YUV colospace
     '''
     R = color[0]
     G = color[1]

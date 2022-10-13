@@ -36,6 +36,11 @@ def idct(F):
     return f
 
 
-image = '/Lenna.png'
-print (image)
+matrix3x3 = np.matrix([[1,1,1],[0,0,0],[2,2,2]])
+DCT = dct(matrix3x3)
+print(DCT)
+
+IDCT = idct(DCT)
+print('\n', IDCT)
+
 
