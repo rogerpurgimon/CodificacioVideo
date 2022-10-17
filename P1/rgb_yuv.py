@@ -1,7 +1,7 @@
 def rgb_to_yuv(color):
     '''
     :param color is a vector containing the RED, GREEN and BLUE channels
-    :return the color but in the YUV colospace
+    :return the color in the YUV colospace
     '''
     R = color[0]
     G = color[1]
